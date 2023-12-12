@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation By Ajaz</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Name input here -->
+
+    <div class="container flex">
+      <form action="" id="form" class="form">
+        <div class="title">Get Started</div>
+        <div>
+          <label for="username">Username</label>
+          <i class="fa-regular fa-user"></i>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Ajaz Khan"
+          />
+          <i class="fa-solid fa-circle-check success-icon"></i>
+          <i class="fa-solid fa-circle-exclamation failure-icon"></i>
+          <div class="error"></div>
+        </div>
+        <!-- Email input here -->
+        <div>
+          <label for="email">Email</label>
+          <i class="fa-regular fa-envelope-open"></i>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="abc@gmail.com"
+          /><i class="fa-solid fa-circle-check success-icon"></i>
+          <i class="fa-solid fa-circle-exclamation failure-icon"></i>
+          <div class="error"></div>
+        </div>
+        <!-- phone input here input here -->
+        <div>
+          <label for="phone">Phone</label>
+          <i class="fa-solid fa-phone"></i>
+          <input
+            type="phone"
+            name="phone"
+            id="phone"
+            placeholder="1234567890"
+          /><i class="fa-solid fa-circle-check success-icon"></i>
+          <i class="fa-solid fa-circle-exclamation failure-icon"></i>
+          <div class="error"></div>
+        </div>
+        <!-- Password input here -->
+        <div>
+          <label for="password">Password</label>
+          <i class="fa-solid fa-lock"></i>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password Here"
+          /><i class="fa-solid fa-circle-check success-icon"></i>
+          <i class="fa-solid fa-circle-exclamation failure-icon"></i>
+          <div class="error"></div>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/6cb2e13372.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
